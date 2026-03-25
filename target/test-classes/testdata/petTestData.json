@@ -1,0 +1,41 @@
+{
+  "pet": {
+    "createPet": {
+      "id": 5001,
+      "category": {
+        "id": 101,
+        "name": "Dogs"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "https://example.com/dog1.jpg"
+      ],
+      "tags": [
+        {
+          "id": 201,
+          "name": "friendly"
+        }
+      ],
+      "status": "available"
+    },
+	
+    "updatePet": {
+      "id": 5001,
+      "category": {
+        "id": 102,
+        "name": "Updated Dogs"
+      },
+      "name": "doggie-updated",
+      "photoUrls": [
+        "https://example.com/dog2.jpg"
+      ],
+      "tags": [
+        {
+          "id": 202,
+          "name": "trained"
+        }
+      ],
+      "status": "sold"
+    }
+  }
+}

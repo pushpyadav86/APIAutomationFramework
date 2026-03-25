@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-24T20:16:07 CDT" name="RestAssured Suite" finished-at="2026-03-24T20:16:17 CDT" duration-ms="9372">
+    <groups>
+    </groups>
+    <test started-at="2026-03-24T20:16:07 CDT" name="API Tests" finished-at="2026-03-24T20:16:17 CDT" duration-ms="9372">
+      <class name="api.testcases.UserTestJson">
+        <test-method signature="testCreateUser()[pri:1, instance:api.testcases.UserTestJson@10e31a9a]" started-at="2026-03-24T20:16:13 CDT" name="testCreateUser" finished-at="2026-03-24T20:16:14 CDT" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testUpdateUser()[pri:2, instance:api.testcases.UserTestJson@10e31a9a]" started-at="2026-03-24T20:16:14 CDT" name="testUpdateUser" finished-at="2026-03-24T20:16:14 CDT" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUser()[pri:3, instance:api.testcases.UserTestJson@10e31a9a]" started-at="2026-03-24T20:16:14 CDT" name="testDeleteUser" finished-at="2026-03-24T20:16:15 CDT" duration-ms="601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.testcases.UserTestJson -->
+      <class name="api.testcases.UserTest">
+        <test-method is-config="true" signature="generateTestData()[pri:0, instance:api.testcases.UserTest@36902638]" started-at="2026-03-24T20:16:07 CDT" name="generateTestData" finished-at="2026-03-24T20:16:08 CDT" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateTestData -->
+        <test-method signature="tsetCreateUser()[pri:1, instance:api.testcases.UserTest@36902638]" started-at="2026-03-24T20:16:08 CDT" name="tsetCreateUser" finished-at="2026-03-24T20:16:11 CDT" duration-ms="3028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tsetCreateUser -->
+        <test-method signature="testGetUser()[pri:2, instance:api.testcases.UserTest@36902638]" started-at="2026-03-24T20:16:11 CDT" name="testGetUser" finished-at="2026-03-24T20:16:11 CDT" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.testcases.UserTest@36902638]" started-at="2026-03-24T20:16:11 CDT" name="testUpdateUser" finished-at="2026-03-24T20:16:12 CDT" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUser()[pri:4, instance:api.testcases.UserTest@36902638]" started-at="2026-03-24T20:16:12 CDT" name="testDeleteUser" finished-at="2026-03-24T20:16:13 CDT" duration-ms="811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.testcases.UserTest -->
+      <class name="api.testcases.PetTestJson">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:api.testcases.PetTestJson@131774fe]" started-at="2026-03-24T20:16:15 CDT" name="beforeClass" finished-at="2026-03-24T20:16:15 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="testCreatePet()[pri:1, instance:api.testcases.PetTestJson@131774fe]" started-at="2026-03-24T20:16:15 CDT" name="testCreatePet" finished-at="2026-03-24T20:16:15 CDT" duration-ms="696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePet -->
+        <test-method signature="testUpdatePet()[pri:2, instance:api.testcases.PetTestJson@131774fe]" started-at="2026-03-24T20:16:15 CDT" name="testUpdatePet" finished-at="2026-03-24T20:16:16 CDT" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePet -->
+        <test-method signature="testDeletePet()[pri:3, instance:api.testcases.PetTestJson@131774fe]" started-at="2026-03-24T20:16:16 CDT" name="testDeletePet" finished-at="2026-03-24T20:16:17 CDT" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePet -->
+      </class> <!-- api.testcases.PetTestJson -->
+    </test> <!-- API Tests -->
+  </suite> <!-- RestAssured Suite -->
+</testng-results>

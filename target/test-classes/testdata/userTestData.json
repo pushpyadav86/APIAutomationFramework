@@ -1,0 +1,39 @@
+{
+  "user": {
+    "createUser": {
+      "id": 101,
+      "username": "testuser1",
+      "firstName": "May",
+      "lastName": "Yadav",
+      "email": "may@test.com",
+      "password": "test123",
+      "phone": "9999999999"
+    },
+    "updateUser": {
+      "id": 101,
+      "username": "testuser1",
+      "firstName": "Maya",
+      "lastName": "Sharma",
+      "email": "maya@test.com",
+      "password": "test456",
+      "phone": "8888888888"
+    }
+  },
+  "pet": {
+    "createPet": {
+      "id": 5001,
+      "name": "Luna",
+      "status": "available"
+    }
+  },
+  "store": {
+    "createOrder": {
+      "id": 9001,
+      "petId": 5001,
+      "quantity": 2,
+      "shipDate": "2026-03-24T10:00:00.000Z",
+      "status": "placed",
+      "complete": true
+    }
+  }
+}
