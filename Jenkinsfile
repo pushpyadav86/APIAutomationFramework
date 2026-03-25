@@ -2,10 +2,9 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'
-        jdk 'JDK17'
+        maven 'MyMaven'
     }
-
+    
     parameters {
         choice(
             name: 'SUITE_FILE',
