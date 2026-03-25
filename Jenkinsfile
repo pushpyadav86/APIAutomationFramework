@@ -3,9 +3,8 @@ pipeline {
 
     tools {
         maven 'Maven'
-        jdk 'JDK17'
     }
-
+    
     parameters {
         choice(
             name: 'SUITE_FILE',
